@@ -1,0 +1,83 @@
+/*Importando as fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+/*Cores principais*/
+
+:root{
+    --cor-1: #3b5ba7;
+    --cor-2: #1d2c5e;
+    --cor-3: #ffcb05;
+    --cor-4: #ee6b2f;
+    --cor-5: #E6bc2f;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #616161;
+    border-bottom: 10px solid var(--cor-5);
+    
+}
+
+.cabecalho div{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.logo img{
+    margin-left: 100px;
+}
+
+.items-nav{
+    margin-right: 100px;
+}
+
+.items-nav a{
+    margin: 10px;
+    padding: 44px;
+    text-decoration: none;
+    color: var(--cor-5);
+    font-family: roboto, sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+    border-radius: 5px;
+    transition: 400ms;
+}
+
+.items-nav a:hover{
+   background-color: var(--cor-5);
+   color: white;
+}
+
+body{
+  background-image: linear-gradient(to right,#3b5ba7, #1d2c5e);
+
+}
+
+/* CSS da página principal */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container-pokedex{
+    background: white;
+    height: 800px;
+    width: 1100px;
+    margin-top: 50px;
+}
+
